@@ -7,9 +7,9 @@ public class ImportDemo {
 }
 
 
-class Order extends Customer {
-    void print(){
-        System.out.println(orderName);
+class Order{
+    public void print(){
+        System.out.println();
 //        listOrders();
     }
 }
