@@ -1,0 +1,8 @@
+<div class="col-lg-20">
+
+    <h2 class="my-4">Categories</h2>
+    <div class="list-group">
+      <a routerLink="/category/{{category.id}}" class="list-group-item" *ngFor="let category of Categories"  routerLinkActive="bg-primary text-white font-weight-bold">{{category.name}}</a>
+    </div>
+
+  </div>
